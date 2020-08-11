@@ -1,0 +1,32 @@
+
+                    ##        .            
+              ## ## ##       ==            
+           ## ## ## ##      ===            
+       /""""""""""""""""\___/ ===        
+  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
+       \______ o          __/            
+         \    \        __/             
+          \____\______/                
+ 
+          |          |
+       __ |  __   __ | _  __   _
+      /  \| /  \ /   |/  / _\ | 
+      \__/| \__/ \__ |\_ \__  |
+      
+      
+
+this time all folder and files save in Volumes EMC in docker .... no shared laptop 
+
+1- create volume and save file into
+docker run -it --name datbase -v NAKIVO:/backup centos bash
+
+nakivo : volume create 
+centos : folder get in systeme > ls
+
+
+2- can use this Volumes with ather Conatiers 
+docker run -it --name mysql -v NAKIVO:/data1 centos bash
+
+3- all data of all thos caoanters save in one volume nakivo
+[root§] ls data1
+
