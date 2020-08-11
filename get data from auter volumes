@@ -1,0 +1,10 @@
+create master cconaters 
+
+2 create slave conaters 
+
+
+3- shared data slave of slave to master 
+docker run -it --name slave --volumes-from master  centos bash
+
+
+get data from auter conaters 
