@@ -1,0 +1,22 @@
+
+
+
+ _________________
+|# :           : #|
+|  :           :  |
+|  :           :  |
+|  :           :  |
+|  :___________:  |
+|     _________   |
+|    | __      |  |
+|    ||  |     |  |
+\____||__|_____|__|lc
+
+
+
+when we take about share data between containers, Docker came up with the concept of volumes. 
+Quite simply, volumes are directories (or files) that
+are outside of the default Union File System and exist as normal directories and files on the host filesystem.
+
+its the stoarge parte of docker 
+
