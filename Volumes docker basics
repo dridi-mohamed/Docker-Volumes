@@ -1,0 +1,17 @@
+1- Create Volume 
+ docker volume create EMC
+ 
+ 2- list 
+ docker volume ls
+
+3- list with filter 
+docker volume ls -f name=EMC
+DRIVER              VOLUME NAME
+local               EMC
+
+
+4- delet volume
+docker volume rm EMC
+
+
+
