@@ -1,0 +1,47 @@
+--------------------------        Different Types of Volumes---------------------
+
+
+           __
+.-.__      \ .-.  ___  __
+|_|  '--.-.-(   \/\;;\_\.-._______.-.
+(-)___     \ \ .-\ \;;\(   \       \ \
+ Y    '---._\_((Q)) \;;\\ .-\     __(_)
+ I           __'-' / .--.((Q))---'    \,
+ I     ___.-:    \|  |   \'-'_          \
+ A  .-'      \ .-.\   \   \ \ '--.__     '\
+ |  |____.----((Q))\   \__|--\_      \     '
+    ( )        '-'  \_  :  \-' '--.___\
+     Y                \  \  \       \(_)
+     I                 \  \  \         \,
+     I                  \  \  \          \
+     A                   \  \  \          '\
+     |              snd   \  \__|           '
+                           \_:.  \
+                             \ \  \
+                              \ \  \
+                               \_\_|
+                               
+                               
+                               
+ Use bind mounts
+ 
+ Sample with this type can easily shared folder and file and directory ... between your laptop and Containers .
+ 
+  1- create folder in your laptop
+  mkdir myback
+  
+  2- create folder in your conaters 
+docker run -it -v /home/ia/mybackup:/contaiers-backup centos bash
+
+3- run ls in contaiers to check
+ls 
+
+4- run ls or crearte or, dalete files in this folder 
+cd mybacku
+touch f1 f2 f3
+
+
+
+  
+ 
+ 
